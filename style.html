@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>October Rose- Quiz-</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   
+    
+  
+  <div class="wrap">
+    <div class="card">
+      <img  src="logo/logo4.png" alt="sesc club">
+      <h1>October Rose </h1><h2>Quick Quiz</h2>
+      <p class="lead">A short quiz for Pink October. Click Start to begin 💗</p>
+      <div id="startScreen" class="start-screen">
+        <button class="btn" id="startBtn">Start Quiz</button>
+      </div>
+      
+      <div id="quiz" class="quiz">
+        <div id="questionText" class="question"></div>
+        <div id="choices" class="choices"></div>
+
+        <div class="meta">
+          <div id="qIndex" class="small"></div>
+          <div class="progress"><i id="progressBar"></i></div>
+        </div>
+
+        <div class="footer-actions">
+          <button class="btn ghost" id="prevBtn">Previous</button>
+          <button class="btn" id="nextBtn">Next</button>
+        </div>
+      </div>
+
+
+      <div id="result" class="result">
+        <h2>Quiz Finished!</h2>
+        <div id="scoreValue" class="score"></div>
+        <button class="btn" id="retryBtn">Retry</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="style.js"></script>
+</body>
+</html>
